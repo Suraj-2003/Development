@@ -108,7 +108,7 @@ BOOL Singly_linkedList::InsertLast(int no)
     return TRUE;
 }
 
-BOOL Singly_linkedList::InsertAtPosition(int pos, int no)
+BOOL Singly_linkedList::InsertAtPosition(int no, int pos)
 {
     if((Head == NULL) || (pos>Count()+1) || (pos <= 0))
     {
